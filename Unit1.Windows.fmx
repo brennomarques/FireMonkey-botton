@@ -1,0 +1,19 @@
+inherited Form1_Windows: TForm1_Windows
+  Fill.Color = claSnow
+  DesignerMasterStyle = 0
+  inherited RoundRect1: TRoundRect
+    inherited Text1: TText
+      TextSettings.Font.StyleExt = {00070000000000000002000000}
+    end
+  end
+  inherited RoundRect2: TRoundRect
+    inherited Text2: TText
+      TextSettings.Font.StyleExt = {00070000000000000002000000}
+    end
+  end
+  inherited RoundRect3: TRoundRect
+    inherited Text3: TText
+      TextSettings.Font.StyleExt = {00070000000000000002000000}
+    end
+  end
+end

@@ -1,0 +1,18 @@
+inherited Form1_Windows: TForm1_Windows
+  Fill.Color = claSnow
+  Fill.Kind = Solid
+  DesignerMasterStyle = 0
+  inherited RoundRect1: TRoundRect
+    Position.X = 32.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 41.000000000000000000
+  end
+  inherited RoundRect2: TRoundRect
+    Position.X = 224.000000000000000000
+  end
+  inherited RoundRect3: TRoundRect
+    Position.X = 424.000000000000000000
+    Position.Y = 152.000000000000000000
+  end
+end

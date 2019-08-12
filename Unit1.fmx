@@ -1,0 +1,168 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 270
+  ClientWidth = 659
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RoundRect1: TRoundRect
+    Cursor = crHandPoint
+    Fill.Color = claNull
+    Position.X = 40.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkgreen
+    Stroke.Thickness = 4.000000000000000000
+    OnMouseDown = RoundRect1MouseDown
+    OnMouseUp = RoundRect1MouseUp
+    object FloatAnimation1: TFloatAnimation
+      Duration = 0.500000000000000000
+      Inverse = True
+      PropertyName = 'Scale.X'
+      StartValue = 1.000000000000000000
+      StopValue = 1.049999952316284000
+      Trigger = 'IsMouseOver=true'
+      TriggerInverse = 'IsMouseOver=false'
+    end
+    object FloatAnimation2: TFloatAnimation
+      Duration = 0.500000000000000000
+      Inverse = True
+      PropertyName = 'Scale.Y'
+      StartValue = 1.000000000000000000
+      StopValue = 1.049999952316284000
+      Trigger = 'IsMouseOver=true'
+      TriggerInverse = 'IsMouseOver=false'
+    end
+    object Text1: TText
+      Align = Center
+      Locked = True
+      HitTest = False
+      Size.Width = 144.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Token'
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000002000000}
+      TextSettings.FontColor = claDarkgreen
+    end
+  end
+  object RoundRect2: TRoundRect
+    Cursor = crHandPoint
+    Fill.Color = claNull
+    Position.X = 224.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkgreen
+    Stroke.Thickness = 4.000000000000000000
+    OnMouseDown = RoundRect2MouseDown
+    OnMouseUp = RoundRect2MouseUp
+    object FloatAnimation3: TFloatAnimation
+      Duration = 0.500000000000000000
+      Inverse = True
+      PropertyName = 'Scale.X'
+      StartValue = 1.000000000000000000
+      StopValue = 1.049999952316284000
+      Trigger = 'IsMouseOver=true'
+      TriggerInverse = 'IsMouseOver=false'
+    end
+    object FloatAnimation4: TFloatAnimation
+      Duration = 0.500000000000000000
+      Inverse = True
+      PropertyName = 'Scale.Y'
+      StartValue = 1.000000000000000000
+      StopValue = 1.049999952316284000
+      Trigger = 'IsMouseOver=true'
+      TriggerInverse = 'IsMouseOver=false'
+    end
+    object Text2: TText
+      Align = Center
+      Locked = True
+      HitTest = False
+      Size.Width = 152.000000000000000000
+      Size.Height = 37.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Smart Card'
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000002000000}
+      TextSettings.FontColor = claDarkgreen
+    end
+  end
+  object RoundRect3: TRoundRect
+    Cursor = crHandPoint
+    Fill.Color = claNull
+    Position.X = 408.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkgreen
+    Stroke.Thickness = 4.000000000000000000
+    OnMouseDown = RoundRect3MouseDown
+    OnMouseUp = RoundRect3MouseUp
+    object FloatAnimation5: TFloatAnimation
+      Duration = 0.500000000000000000
+      Inverse = True
+      PropertyName = 'Scale.X'
+      StartValue = 1.000000000000000000
+      StopValue = 1.049999952316284000
+      Trigger = 'IsMouseOver=true'
+      TriggerInverse = 'IsMouseOver=false'
+    end
+    object FloatAnimation6: TFloatAnimation
+      Duration = 0.500000000000000000
+      Inverse = True
+      PropertyName = 'Scale.Y'
+      StartValue = 1.000000000000000000
+      StopValue = 1.049999952316284000
+      Trigger = 'IsMouseOver=true'
+      TriggerInverse = 'IsMouseOver=false'
+    end
+    object Text3: TText
+      Align = Center
+      Locked = True
+      HitTest = False
+      Size.Width = 147.000000000000000000
+      Size.Height = 37.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Relat'#243'rio'
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000002000000}
+      TextSettings.FontColor = claDarkgreen
+    end
+  end
+  object CalloutPanel1: TCalloutPanel
+    Padding.Top = 11.000000000000000000
+    Position.X = 64.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 3
+    CalloutWidth = 23.000000000000000000
+    CalloutLength = 11.000000000000000000
+  end
+  object CalloutPanel2: TCalloutPanel
+    Padding.Top = 11.000000000000000000
+    Position.X = 248.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 4
+    CalloutWidth = 23.000000000000000000
+    CalloutLength = 11.000000000000000000
+  end
+  object CalloutPanel3: TCalloutPanel
+    Padding.Top = 11.000000000000000000
+    Position.X = 432.000000000000000000
+    Position.Y = 128.000000000000000000
+    TabOrder = 5
+    CalloutWidth = 23.000000000000000000
+    CalloutLength = 11.000000000000000000
+  end
+end
