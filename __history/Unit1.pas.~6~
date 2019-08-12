@@ -24,7 +24,6 @@ type
     CalloutPanel1: TCalloutPanel;
     CalloutPanel2: TCalloutPanel;
     CalloutPanel3: TCalloutPanel;
-    CheckBox1: TCheckBox;
     procedure RoundRect1MouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Single);
     procedure RoundRect1MouseUp(Sender: TObject; Button: TMouseButton;

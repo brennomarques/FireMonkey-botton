@@ -16,7 +16,4 @@ inherited Form1_Windows: TForm1_Windows
       TextSettings.Font.StyleExt = {00070000000000000002000000}
     end
   end
-  inherited CheckBox1: TCheckBox
-    TextSettings.Font.Size = 10.000000000000000000
-  end
 end
